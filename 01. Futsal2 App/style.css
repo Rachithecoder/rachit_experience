@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  scroll-behavior: smooth;
+}
+
+#home-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#heading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bolder;
+    font-size: 7rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+    -webkit-text-stroke: 4px;
+}
+
+nav{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 0 4px;
+    position: fixed;
+    top:0;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+}
+
+a{
+    text-decoration: none ;
+    color: white;
+    }
+
+button{
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    width: 10rem;
+    border: none;
+    background-color: orange;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+#bookings-page{
+    height:100vh;
+    width: 100%;
+    padding: 50px;
+
+}
+
+#bookings-page #booking-table{
+     border: 1px solid;
+    width: 800px;
+    height: 400px;
+}
+
+#text-container h1{
+    font-size: 5rem;
+    -webkit-text-stroke: 4px;
+}
+
+
+#book-now-page{
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    gap: 0 5px;
+}
+
+#book-now-page #temp{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#book-now-page div #text-container{
+    width: 100%;
+}
+
+
+
+#book-now-page #booking-table-summary{
+    border: 1px solid;
+    width: 400px;
+    height: 90%;
+    width: 60%;
+    align-self: center;
+}
+
+#booking-menu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,30%);
+    grid-template-rows: repeat(3,3rem);
+    align-items: center;
+    gap: 5px 0;
+}
+
+label{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px;
+}
+input{
+     padding: 1rem 3rem;
+    border: 2px solid ;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+select{
+    padding: 1rem 3rem;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    text-align: center;
+
+}
